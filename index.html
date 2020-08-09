@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <script src="function.js"; src="style.css"></script>
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <img src="pa44-180.jpg" alt="">
+</head>
+<body>
+    <table>
+      <caption>PA-44-180</caption>
+
+
+  <tr>
+    <td></td>
+    <th scope="col" style="text-align: center">Weight</th>
+    <th scope="col" style="text-align: center">Arm Aft Datum</th>
+    <th scope="col" style="text-align: center">Moment</th>
+  </tr>
+  <tr>
+    <th >Basic Empty Weight</th>
+    <td><input id="emptyWeight" oninput="calculate()"/></td>
+    <td><output id="arm"></output></td>
+    <td><input id="emptyMoment" oninput="calculate()"/></td>
+  </tr>
+  <tr>
+    <th scope="row">Pilot/Front Passengers</th>
+    <td><input id="w1" oninput="calculate()"/></td>
+    <td> 80.5</td>
+    <td><output id="result1"></output></td>
+  </tr>
+  <tr>
+    <th scope="row">Passengers - Aft Seats</th>
+    <td><input id="w2" oninput="calculate()"/></td>
+    <td> 118.1 </td>
+    <td><output id="result2"></output></td>
+  </tr>
+  <tr>
+    <th scope="row">Baggage Area</th>
+    <td><input id="w3" oninput="calculate()"/></td>
+    <td> 142.8 </td>
+    <td><output id="result3"></output></td>
+  </tr>
+  <!-- Fuel (6lbs/gal) -->
+  <tr>
+    <th scope="row">Fuel (6lbs/gal)</th>
+    <td><input id="w4" oninput="calculate()"/></td>
+    <td> 95.0 </td>
+    <td><output id="result4"></output></td>
+  </tr>
+  <!-- Ramp Weight -->
+  <tr>
+    <th>Ramp Weight</th>
+    <td><output id="ramp1"></output></td>
+    <td><output id="ramp3"></output></td>
+    <td><output id="ramp2"></output></td>
+  </tr>
+  <!-- Start, Taxi & Run-up -->
+  <tr>
+    <th>Start, Taxi & Run-up</th>
+    <td> -16 </td>
+    <td> 95.0 </td>
+    <td> -1520 </td>
+  </tr>
+  <!-- Take-off Weight/CG -->
+  <tr>
+    <th>Take-off Weight/CG</th>
+    <td><output id="to1"></output></td>
+    <td><output id="to3"></output></td>
+    <td><output id="to2"></output></td>
+  </tr>
+  <!-- Estimated Fuel Burn -->
+  <tr>
+  <th>Estimated Fuel Burn</th>
+  <td><input id="w5" oninput="calculate()"/></td>
+  <td> 95.0 </td>
+  <td><output id="result5"></output></td>
+  </tr>
+  <!-- Landing Weight/CG -->
+  <tr>
+    <th>Landing Weight/CG</th>
+    <td><output id="landing1"></output></td>
+    <td><output id="landing3"></output></td>
+    <td><output id="landing2"></output></td>
+  </tr>
+  <!-- Actual A/C -->
+  <tr>
+    <th>Actual A/C</th>
+    <td><input id="actualEmptyWeight" oninput="calculate()"/></td>
+    <td></td>
+    <td><input id="actualEmptyMoment" oninput="calculate()"/></td>
+ </tr>
+ <!-- Change in Basic Empty -->
+ <tr>
+    <th>Change in Basic Empty</th>
+    <td><output id="change1"></output></td>
+    <td></td>
+    <td><output id="change2"></output></td>
+ </tr>
+ <!-- New Takeoff Wt/CG -->
+ <tr>
+    <th>New Takeoff Wt/CG</th>
+    <td><output id="newTo1"></output></td>
+    <td><output id="newTo3"></output></td>
+    <td><output id="newTo2"></output></td>
+ </tr>
+ <!-- New Landing Wt/CG -->
+ <tr>
+    <th>New Landing Wt/CG</th>
+    <td><output id="newlanding1"></output></td>
+    <td><output id="newlanding3"></output></td>
+    <td><output id="newlanding2"></output></td>
+ </tr>
+
+</table>
+  </table>
+</body>
+</html>
