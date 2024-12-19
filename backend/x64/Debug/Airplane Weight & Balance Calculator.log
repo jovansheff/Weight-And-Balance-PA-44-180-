@@ -1,0 +1,9 @@
+﻿  aircraft.cpp
+  cessnaAircraft.cpp
+  main.cpp
+C:\Users\sheff\source\repos\Airplane Weight & Balance Calculator\Airplane Weight & Balance Calculator\main.cpp(173,16): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\sheff\source\repos\Airplane Weight & Balance Calculator\Airplane Weight & Balance Calculator\main.cpp(391,37): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\sheff\source\repos\Airplane Weight & Balance Calculator\Airplane Weight & Balance Calculator\main.cpp(445,31): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  piperAircraft.cpp
+  Generating Code...
+  Airplane Weight & Balance Calculator.vcxproj -> C:\Users\sheff\source\repos\Airplane Weight & Balance Calculator\x64\Debug\Airplane Weight & Balance Calculator.exe
